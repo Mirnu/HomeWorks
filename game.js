@@ -1,9 +1,5 @@
-function generateSecretNumber() {
-    return Math.floor(Math.random() * 100) + 1;
-}
-
 function playGame() {
-    const secretNumber = generateSecretNumber();
+    const secretNumber = Math.floor(Math.random() * 100) + 1;
     let low = 1;
     let high = 100;
     let guess;
